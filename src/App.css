@@ -1,0 +1,40 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+.text-slanted {
+  font-family: "Courgette", cursive;
+}
+.text-orange {
+  color: #f15025;
+}
+.letter-spacing {
+  letter-spacing: 0.5rem;
+}
+
+.NavBackground {
+  background-color: black !important;
+  color: white !important;
+}
+
+.nav-link {
+  color: gray !important;
+}
+.nav-link:hover {
+  color: white !important;
+}
+
+.navlogo {
+  width: 3rem;
+}
+.header-hero,
+.default-hero {
+  min-height: calc(100vh - 56px);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("./images/homeBcg.jpeg") center/cover no-repeat; */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./images/homeBcg.jpg") center/cover no-repeat;
+}
+.default-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./images/defaultBcg.jpeg") center/cover no-repeat;
+}
